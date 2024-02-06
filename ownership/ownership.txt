@@ -1,0 +1,10 @@
+ownership rules-
+1. Each value has an owner.There is no value , data that doesn't have a owner.
+2. There is only one owner of a value. No variables may share ownership.Other variables may borrow the value but
+only one variable owns it.
+3. Value gets dropped once owner goes out of scope.
+
+
+Check below error for Error found in main.rules
+
+rustc --explain E0382

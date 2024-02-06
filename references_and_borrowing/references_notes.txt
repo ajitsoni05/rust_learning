@@ -1,0 +1,4 @@
+if we have a variable x ,
+then &x is an immutable reference to the variable x
+and &mut x is a mutable reference to the variable.
+similarly if x is of type i32 ,then &x is of type &i32 and &mut x is of type &mut i32
